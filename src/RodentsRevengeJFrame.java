@@ -171,13 +171,13 @@ public class RodentsRevengeJFrame extends JFrame {
 		
 		menubar.add(options);
 		
-		JMenu about = new JMenu("About");
-		JMenuItem aboutItem = new JMenuItem("About Komi's Revenge!");
+		JMenu about = new JMenu("Help");
+		JMenuItem aboutItem = new JMenuItem("About");
 		aboutItem.addActionListener(new ActionListener(){
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				JOptionPane.showMessageDialog(RodentsRevengeJFrame.this, 
-					"Komi's Revenge!\nBy Stan Alam for Win 94", 
+					"Komi's Revenge! v1.0\nBy Stan Alam forked from maxxboehme's A Mouses Vengeance\nfor Windows 94", 
 					"About", 
 					JOptionPane.INFORMATION_MESSAGE);
 			}
